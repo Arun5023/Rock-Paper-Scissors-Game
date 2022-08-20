@@ -73,7 +73,7 @@ function rpsFront(humanImageChoice,botImageChoice,finalMessage)
 
     var btn = document.createElement('a');
     btn.setAttribute('id','butn');
-    btn.setAttribute('href',"http://127.0.0.1:5500/index.html");
+    btn.setAttribute('href',"https://arun5023.github.io/Rock-Paper-Scissors-Game/");
     btn.innerText = "Play Again";
     document.getElementById('reset').appendChild(btn);
 }
